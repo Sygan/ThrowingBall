@@ -23,7 +23,7 @@ public class CameraController : MonoBehaviour
         var mouseY = Input.GetAxis("Mouse Y");
 
         var rotateValue = new Vector3(InverseCamera ? mouseY : -mouseY,
-            -mouseX, 0f);
+            mouseX, 0f);
 
         transform.eulerAngles += rotateValue * RotationSpeed;
     }
