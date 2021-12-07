@@ -146,3 +146,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GrabParent: {fileID: 915564164220157171}
   ThrowForce: 10
+  PlayerBoxController: {fileID: 0}
