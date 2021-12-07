@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public Transform GrabParent;
     public float ThrowForce = 10f;
-
+    public PlayerBoxController PlayerBoxController;
+    
     private BallController highlightedBall;
     private BallController grabbedBall;
 
@@ -45,7 +46,9 @@ public class PlayerController : MonoBehaviour
             highlightedBall.transform.SetParent(GrabParent);
             highlightedBall.transform.localPosition = Vector3.zero;
             grabbedBall = highlightedBall;
+            grabbedBall.Rigidbody.isKinematic = true;
             grabbedBall.Highlight(false);
+            PlayerBoxController.RemoveBall();
             highlightedBall = null;
         }
         else if (grabbedBall != null && Input.GetButtonDown("Fire1"))

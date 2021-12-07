@@ -9,6 +9,13 @@ public class BallController : MonoBehaviour
 
     public Renderer MeshRenderer;
     public Rigidbody Rigidbody;
+
+    public void Create(Vector3 position)
+    {
+        transform.position = position;
+        Rigidbody.isKinematic = false;
+        gameObject.SetActive(true);
+    }
     
     public void Highlight(bool highlighted)
     {

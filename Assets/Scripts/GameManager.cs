@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
 
     public int Points;
     public string LevelName;
-
+    public BallControllerPooler BallPooler;
+    
     public UnityAction OnBallEnteredBox;
     
     private void Awake()
