@@ -5,24 +5,15 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public static int Points = 0;
-    
     public Transform GrabParent;
     public float ThrowForce = 10f;
 
-    public Text TextField;
-    
     private BallController highlightedBall;
     private BallController grabbedBall;
-    
-    
 
     // Update is called once per frame
     void Update()
     {
-    
-        TextField.text = Points.ToString();
-        
         RaycastHit outHit;
         var wasHit = Physics.Raycast(transform.position, transform.forward, out outHit, 100f);
 

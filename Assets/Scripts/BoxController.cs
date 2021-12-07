@@ -8,7 +8,7 @@ public class BoxController : MonoBehaviour
     {
         if (other.CompareTag("Ball"))
         {
-            PlayerController.Points++;
+            GameManager.Instance.AddScore(1);
         }
     }
 }
