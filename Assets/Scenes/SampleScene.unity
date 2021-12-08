@@ -798,7 +798,7 @@ PrefabInstance:
     - target: {fileID: 3982194543514817021, guid: 4c276d015d6a844cfa0d65ea1aa7ccad, type: 3}
       propertyPath: BoxData
       value: 
-      objectReference: {fileID: 11400000, guid: 750edc45dc886460f858712aaeec4b5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 20002cb4f54ed400ebe39c8ed2a259c7, type: 2}
     - target: {fileID: 3982194543514817023, guid: 4c276d015d6a844cfa0d65ea1aa7ccad, type: 3}
       propertyPath: m_Name
       value: BallBox

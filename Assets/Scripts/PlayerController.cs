@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public Transform GrabParent;
     public float ThrowForce = 10f;
     public PlayerBoxController PlayerBoxController;
+
+    public RandomIntValue Value;
     
     private BallController highlightedBall;
     private BallController grabbedBall;
