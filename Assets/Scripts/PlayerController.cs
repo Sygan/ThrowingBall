@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    [DisabledField(Disable = true)]
     public Transform GrabParent;
+    
     public float ThrowForce = 10f;
     public PlayerBoxController PlayerBoxController;
 

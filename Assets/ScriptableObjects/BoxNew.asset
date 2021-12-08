@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5221fdda79cb54b87804ec709f8430c8, type: 3}
-  m_Name: BoxNew
+  m_Name: Box_2
   m_EditorClassIdentifier: 
-  Points: 0
+  Points: 232
